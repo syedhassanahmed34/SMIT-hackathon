@@ -1,0 +1,149 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#logo {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 90px;
+    font-weight: bold;
+}
+
+#logo>h5 {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav>ul {
+    display: flex;
+    justify-content: end;
+    margin: 40px 0px 0px 170px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav>ul>li>a {
+    text-decoration: none;
+    margin-left: 120px;
+    color: black;
+}
+
+nav>ul>li {
+    list-style-type: none;
+}
+
+span>i {
+    margin-top: 40px;
+    margin-left: 20px;
+    color: grey;
+}
+
+#first {
+    font-weight: bold;
+}
+
+.first-btn {
+    background-color: green;
+    color: white;
+    width: 100px;
+}
+
+#para-two {
+    color: orange;
+}
+
+#head-two {
+    font-weight: bold;
+}
+
+.para-three {
+    color: orange;
+}
+
+#para-four {
+    color: orange;
+    font-size: 18px;
+}
+
+.subscribe {
+    margin-left: 160px;
+}
+
+.section-one {
+    margin-top: 90px;
+}
+
+.section-one>.img-one>img {
+    margin-left: 800px;
+    margin-top: -200px;
+    position: top;
+}
+
+.section-two>.img-two>img {
+    border: 1px solid white;
+    margin-left: 100px;
+}
+
+.section-two>.section-two-text {
+    margin-left: 600px;
+    margin-top: -250px;
+}
+
+.section-three {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.cards-sec {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-1 {
+    padding-top: 20px;
+}
+
+.card-four {
+    display: inline-block;
+    margin-right: 80px;
+}
+
+.section-five>.img-five>img {
+    margin-left: 800px;
+    margin-top: -250px;
+    position: top;
+}
+
+.card-six {
+    display: inline-block;
+    justify-content: space-evenlys;
+}
+
+.section-seven {
+    margin-left: 500px;
+}
+
+.search-box {
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: silver;
+    display: flex;
+}
+
+.one-part{
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
